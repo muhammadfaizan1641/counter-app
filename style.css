@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+.circle{
+    aspect-ratio: 1;
+    width:250px;
+    height:250px;
+    background: linear-gradient(rgb(84, 84, 242),black);
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin: auto;
+    font-size: 160px;
+    color: rgb(229, 239, 249);
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 15px;
+    height: 8rem;
+    aspect-ratio: 1;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 50%;
+    /* background-color:#00203FFF; */
+    background: linear-gradient(rgb(84, 84, 242),black);
+    border: 2px solid black;
+    color:rgb(229, 239, 249);
+}
+#reset{
+    display: block;
+    margin: auto;
+    height: 8rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    /* background-color:#00203FFF; */
+    background: linear-gradient(rgb(84, 84, 242),black);
+    border: 2px solid black;
+    color:rgb(229, 239, 249);
+    font-size: 2rem;
+    transform: translateY(-30px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.all-button{
+    transform: translateY(-25px);
+}
+.button:hover, #reset:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
